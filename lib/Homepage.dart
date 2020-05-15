@@ -8,9 +8,10 @@ class Homepage extends StatefulWidget {
 
 class _HomeState extends State<Homepage> {
   final List<Widget> _children = [
-    historyKeyPage(),
-    exploreKeyPage(),    
+    HistoryKeyPage(),
+    ExploreKeyPage(),    
     HomeView(),
+
   ];
   int curIndex= 1;
 

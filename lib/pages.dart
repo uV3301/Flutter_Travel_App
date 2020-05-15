@@ -9,7 +9,7 @@ class homeKeyPage extends StatelessWidget {
     );
   }
 }
-class exploreKeyPage extends StatelessWidget {
+class ExploreKeyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,7 +17,7 @@ class exploreKeyPage extends StatelessWidget {
     );
   }
 }
-class historyKeyPage extends StatelessWidget {
+class HistoryKeyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
