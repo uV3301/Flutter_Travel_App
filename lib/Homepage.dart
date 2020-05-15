@@ -10,7 +10,7 @@ class _HomeState extends State<Homepage> {
   final List<Widget> _children = [
     historyKeyPage(),
     exploreKeyPage(),    
-    homeView(),
+    HomeView(),
   ];
   int curIndex= 1;
 

@@ -3,7 +3,7 @@ import './tripdata.dart';
 import 'package:intl/intl.dart';
 
 
-class homeView extends StatelessWidget {
+class HomeView extends StatelessWidget {
   final List<tripdata> tripTitles = [
     tripdata("Singapore", DateTime.now(), DateTime.now(), 300.50, "Ship"),
     tripdata("New Delhi", DateTime.now(), DateTime.now(), 500, "Car"),
