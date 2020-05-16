@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import './pages.dart';
-import './homeview.dart';
+import './views/homeview.dart';
+import './views/new_trip/location_view.dart';
+import './models/tripdata.dart';
 class Homepage extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -23,10 +25,20 @@ class _HomeState extends State<Homepage> {
 
   @override
   Widget build(BuildContext context) {
+    final newtrip = tripdata(null, null, null, null, null);
     return Scaffold(  
       appBar: AppBar(  
         title: Text("New travel home", style: TextStyle(color: Colors.grey)),
         elevation: 10,
+        actions: <Widget>[
+          IconButton( 
+            icon: Icon(Icons.add_box),
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> NewTripLocationView(newtrip)));
+            },
+          )
+          
+        ],
       ),
       body: _children[curIndex],
       bottomNavigationBar: BottomNavigationBar(

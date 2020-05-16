@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590562197548",
+    "firebase_url": "https://travel-budget-5065a.firebaseio.com",
+    "project_id": "travel-budget-5065a",
+    "storage_bucket": "travel-budget-5065a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590562197548:android:6a279e7d234f5e8d501189",
+        "android_client_info": {
+          "package_name": "com.example.navbar_title"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590562197548-c39jfaon7dqj0i4dev16kt6s1p6cni01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSk6w7x8zeXEyfkcV1MqWz3ank4R2adgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590562197548-c39jfaon7dqj0i4dev16kt6s1p6cni01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
